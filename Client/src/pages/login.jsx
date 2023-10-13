@@ -70,7 +70,7 @@ const Login = () => {
           <motion.span
             initial={{ opacity: 0, position: "relative", left: "-100px" }}
             animate={{ opacity: 1, position: "relative", left: "0px" }}
-            transition={{ duration: 2.5 }}
+            transition={{ duration: 1 }}
           >
             <IoMdArrowRoundBack size={50} color="red" />
           </motion.span>
@@ -81,7 +81,7 @@ const Login = () => {
         className="hidden md:block"
         initial={{ opacity: 0, position: "relative", left: "-100px" }}
         animate={{ opacity: 1, position: "relative", left: "0px" }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 5 }}
       >
         <img
           src={LogIn}
@@ -113,7 +113,7 @@ const Login = () => {
               opacity: 1,
               y: 0,
             }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 5 }}
             onSubmit={handleSubmit}
           >
             <div className="mb-6">
